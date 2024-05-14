@@ -1,0 +1,74 @@
+.customBg {
+  background-color: #090909; /* Change the background color to white */
+  padding-top: 15px;
+  height: 100vh;
+  background-image: url('https://c1.wallpaperflare.com/preview/202/740/23/various-blood-doctor-hand.jpg');
+  background-size: cover; /* Adjust the image size to cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+.customBg2 {
+  padding-top: 15px;
+  height: 89vh;
+}
+
+.customArea {
+  min-height: 100vh;
+}
+
+.customText {
+  font-family: Arial, sans-serif; /* Change the font family */
+  font-weight: bold;
+  font-size: 24px; /* Set a specific font size */
+  color: #000000; /* Change the text color to black */
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.customBtnClr {
+  background-color: #ffffff; /* Change the background color of buttons to white */
+  color: #000000; /* Change the text color of buttons to black */
+  font-weight: bold;
+  padding: 10px 20px; /* Add padding to buttons */
+  border: 1px solid #000000; /* Add a border to buttons */
+  border-radius: 5px; /* Add border radius to buttons */
+}
+
+.customBtnClr:hover {
+  background-color: #000000; /* Change the background color of buttons on hover */
+  color: #ffffff; /* Change the text color of buttons on hover */
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: calc(100% - 40px); /* Adjust the width of the input */
+  padding: 10px; /* Set padding for the input */
+  border: 1px solid #000000; /* Change the border color */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Style to position the button inside the input */
+.search-input + button {
+  position: absolute;
+  right: 10px; /* Adjust the right position */
+  top: 50%; /* Align vertically */
+  transform: translateY(-50%); /* Center vertically */
+  height: 100%; 
+  background-color: #ffffff; /* Change the background color of the button */
+  color: #000000; /* Change the text color of the button */
+  border: 1px solid #000000; /* Add a border to the button */
+  border-left: none; /* Remove left border */
+  border-top-right-radius: 5px; /* Add border radius */
+  border-bottom-right-radius: 5px; /* Add border radius */
+  padding: 10px; /* Add padding */
+  cursor: pointer;
+}
+
+.search-input + button:hover {
+  background-color: #000000; /* Change the background color of the button on hover */
+  color: #ffffff; /* Change the text color of the button on hover */
+}
